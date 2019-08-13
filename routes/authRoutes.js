@@ -11,4 +11,7 @@ module.exports = function(app) {
   });
   app.post("/signin", requireSignin, Authentication.signin);
   app.post("/signup", Authentication.signup);
+  app.get("/current_user", (req, res) => {
+    res.send("Prakash");
+  });
 };
