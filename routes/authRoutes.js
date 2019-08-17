@@ -28,4 +28,3 @@ module.exports = function(app) {
     res.send("mail sent successfully");
   });
 };
-//fhhjahs
