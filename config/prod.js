@@ -1,6 +1,9 @@
 module.exports = {
-  secret: process.env.SECRET,
-  mongoURI: process.env.MONGO_URI
+  secret: "lasjdalskhdjahjhdsa",
+  sendGridKey:
+    "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",
+  mongoURI:
+    "mongodb+srv://psingh5293:xRRpunzLazsUuDM6@tridentpool-wo2pk.mongodb.net/test?retryWrites=true&w=majority"
 };
 // module.exports = {
 //   secret: "lasjdalskhdjahjhdsa",
